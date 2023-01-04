@@ -5,12 +5,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CockpitComponent } from './cockpit/cockpit.component';
 import { ServerElementComponent } from './server-element/server-element.component';
+import { ParentOneComponent } from './parent-child-com/parent-one/parent-one.component';
+import { ChildOneComponent } from './parent-child-com/child-one/child-one.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CockpitComponent,
-    ServerElementComponent
+    ServerElementComponent,
+    ParentOneComponent,
+    ChildOneComponent
   ],
   imports: [
     BrowserModule,
