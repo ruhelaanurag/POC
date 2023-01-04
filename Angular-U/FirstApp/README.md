@@ -1,6 +1,10 @@
 # FirstApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.4.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.4.  
+
+Component details are as below
+### Parent-Child-com
+Contains 2 components `parent-one` and `child-one`. displays the use of `@Input`, `@Output` and `EventEmitter`.
 
 ## Development server
 
