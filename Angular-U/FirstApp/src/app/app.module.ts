@@ -7,6 +7,7 @@ import { CockpitComponent } from './cockpit/cockpit.component';
 import { ServerElementComponent } from './server-element/server-element.component';
 import { ParentOneComponent } from './parent-child-com/parent-one/parent-one.component';
 import { ChildOneComponent } from './parent-child-com/child-one/child-one.component';
+import { MultiSlotComponent } from './content-projection/multi-slot/multi-slot.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { ChildOneComponent } from './parent-child-com/child-one/child-one.compon
     CockpitComponent,
     ServerElementComponent,
     ParentOneComponent,
-    ChildOneComponent
+    ChildOneComponent,
+    MultiSlotComponent
   ],
   imports: [
     BrowserModule,
