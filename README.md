@@ -1,4 +1,9 @@
 # POC
 
 * LoggingTest: Serilog  
-* BasicHtml: Overlay
+* BasicHtml: Overlay  
+  
+  
+  
+  
+Simple html pages can be previewed using [githack](https://raw.githack.com/)
