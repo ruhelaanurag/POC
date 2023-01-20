@@ -5,6 +5,26 @@
     <link rel="stylesheet"
           href="https://fonts.googleapis.com/css2?family=Dancing+Script">
     <style>
+         /* mobile styles first */
+        div {
+            font-size: 34px;
+        }
+
+        /* tablet styles */
+        @media screen and (min-width: 768px) {
+            div {
+                font-size: 68px;
+            }
+        }
+
+
+        /* desktop styles */
+        @media screen and (min-width: 1024px) {
+            div {
+                font-size: 60px;
+            }
+        }
+
         body {
             background-image: url("https://raw.githubusercontent.com/ruhelaanurag/POC/main/BasicHtml/Arpit-Deepika3-1.jpeg");
             background-repeat: no-repeat;
@@ -21,8 +41,8 @@
     </style>
 </head>
 <body >
-    <div style="font-size:70px;text-align:center;margin-top:-0em;background:white">Arpit weds Deepika</div>
-    <div id="demo" style="font-size:55px;text-align:center;font-weight:bold;color:black;background:white;min-height:71px;"></div>
+    <div style="text-align:center;margin-top:-0em;background:white">Arpit weds Deepika</div><!--font-size:70px;-->
+    <div id="demo" style="text-align:center;font-weight:bold;color:black;background:white;"></div><!--font-size:55px;-->
     <script>
         // Set the date we're counting down to
         var countDownDate = new Date("Jan 27, 2023 20:00:25").getTime();
