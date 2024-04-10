@@ -7,7 +7,7 @@ namespace CoreWebAPI1.ModelBinding
         public Task BindModelAsync(ModelBindingContext bindingContext)
         {
             bindingContext.ActionContext.HttpContext.Request.Query.TryGetValue("name", out var name);
-            bindingContext.HttpContext.Request.Headers.TryGetValue("headerN", out var name1);
+            bindingContext.HttpContext.Request.Headers.TryGetValue("headerN", out var name1); //look into the request header for headerN
             string strname = name.ToString();
             string strname1 = name1.ToString();
             bindingContext.Result = ModelBindingResult.Success(strname);
