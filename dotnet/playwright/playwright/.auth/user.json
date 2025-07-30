@@ -1,0 +1,25 @@
+{
+  "cookies": [
+    {
+      "name": "Company",
+      "value": "EPo2EnmJx4pKqwOrkf+x3f+2t9wk5YI+ddC9pLWPgBvc",
+      "domain": "ogt-gtm-web-reg.8443.aws-int.thomsonreuters.com",
+      "path": "/",
+      "expires": 1733933621.076368,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "User",
+      "value": "ELn83MhNWnhHqidQfGIEvtSgx3Xh91O6U8MDF/pIaUdy",
+      "domain": "ogt-gtm-web-reg.8443.aws-int.thomsonreuters.com",
+      "path": "/",
+      "expires": 1728832421.076725,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    }
+  ],
+  "origins": []
+}

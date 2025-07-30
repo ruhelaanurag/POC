@@ -1,0 +1,6 @@
+@IR.ApiTest_HostAddress = http://localhost:7067
+
+GET {{IR.ApiTest_HostAddress}}/api/product/
+Accept: application/json
+
+###
